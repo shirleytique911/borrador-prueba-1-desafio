@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+
+
+}
+    
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+
+}
+
+.titulo{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid white;
+}
+
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* SECCIONES */
+
+.seccionPrincipal {
+    
+    background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.seccionPrincipal h2 {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 30px;
+    border-radius: 30px;
+   
+}
+/* SECCION AVAL */
+.aval{
+    padding: 100px;
+}
+
+
+.aval h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 290px;
+  
+
+    
+}
+.tarjeta{
+    position: relative;
+}
+
+.tarjeta_image{
+    width: 100%;
+}
+
+.tarjeta_titulo{
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+
+    color:white;
+    background-color:  rgba(36, 31, 31, 0.445);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+/* seccion3 */
+
+.quienes{
+    background-image: url("../imagenes/FOTO\ SLT.B.jpg");
+    background-size:cover ;
+    height: 100vh;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    ".texto";
+
+
+}
+
+.quienes_texto{
+    grid-area: texto;
+    color:white;
+    background-color: rgba(91, 91, 223, 0.74);
+    padding: 8px;
+
+    
+}
+
+.borde{
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* SECCION 4 */
+
+.clubes{
+    padding: 100px;
+    
+    
+}
+
+.clubes h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+
+.orgullo {
+    color:black;
+    padding: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+    background-image: url("../imagenes/FOTO\ CLUB\ P.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+.enlace{
+    color: red;
+}
+
+/* seccion 4 */
+
+.formulario {
+    padding: 100px;
+
+
+}
+
+.formulario h4{
+    
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+}
+    
+/* FORMULARIO FLATA POR DECORAR  */
+
+
+.jueces{
+    padding: 100px;
+    
+    
+}
+
+.jueces h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+
+/* falta por incluir informacion del colegio de jueces  */
+
+.footer{
+    color: white;
+    background-color: rgb(88, 21, 21);
+
+}
